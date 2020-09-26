@@ -1,0 +1,174 @@
+/**
+ * @file 全局样式
+ * @author yanggaiting
+ * @date 2020-08-06
+ */
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+//覆盖element组件默认样式--自定义
+//菜单栏
+// .el-menu-item.is-active {
+//   background: #ffffff;
+//   color:#00b9ed;
+// }
+//表格自定义样式
+.el-table {
+  padding: 20px;
+}
+.headerRow {
+  //表头样式
+  background-color: #f4f6f9;
+  height: 45px;
+  font-size: 14px;
+  color: #4e4d4d;
+}
+.el-menu-item i{
+  color:#fff;
+}
+.el-menu-item:hover{
+  i{
+    color:#00b9ed
+  }
+}
+.el-menu-item.is-active i{
+  color:#00b9ed;
+}
+//表单项自适应百分比样式
+.el-dialog{
+.el-form .el-input,
+.el-textarea {
+  width: 85%;
+}
+.el-form .el-select,
+.el-autocomplete {
+  width: 85%;
+  .el-input{
+    width:100%;
+  }
+}
+}
+.el-button {
+  font-size: 14px !important;
+}
+
+//dialog自定义样式   实际组件样式可调整内敛样式  width
+.el-dialog {
+  width: 22%;
+}
+
+//底部分页栏自定义样式
+.pagination {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+.el-pager li.active {
+  color: #00b9ed;
+  cursor: default;
+}
+
+//复选框选中自定义样式
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #00b9ed;
+  border-color: #00b9ed;
+}
+
+//select下拉选择项鼠标移入自定义样式
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background-color: #00b9ed;
+  color: #fff;
+}
+
+//autocomplete选择项鼠标移入自定义样式
+.el-autocomplete-suggestion {
+  box-shadow: 0 2px 12px 0 rgba(245, 90, 90, 0.3);
+  border: 1px solid #f7dcdc;
+}
+.el-autocomplete-suggestion li:hover {
+  background-color: #00b9ed;
+  color: #fff;
+}
+
+//日期时间选择器样式
+.el-date-editor .el-range-separator {
+  color: #00b9ed;
+}
+
+//不同type 的button自定义样式
+.el-button--primary {
+  background-color: #00b9ed;
+  border-color: #00b9ed;
+}
+.el-button--danger {
+  background-color: #f00;
+  border-color: #f00;
+}
+.el-button--warning {
+  background-color: #fd9c0a;
+  border-color: #fd9c0a;
+}
+
+//tooltip自定义样式
+.el-tooltip__popper.is-light {
+  background: #f00;
+  color: #fff;
+  border: 1px solid #f00;
+}
+.el-tooltip__popper.is-dark {
+  background: #f00;
+  color: #fff;
+  border: 1px solid #f00;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.el-upload--picture-card {
+  background-color: #fbfdff;
+  border: 1px dashed #c0ccda;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 195px;
+  height: 118px;
+  line-height: 146px;
+  vertical-align: top;
+}
+.el-upload-dragger {
+  width: 195px;
+    height: 118px;
+    .el-icon-upload {
+      font-size: 67px;
+      color: #C0C4CC;
+      margin: 40px 0 16px;
+      line-height: 25px;
+  }
+  .el-upload__text {
+    color: #606266;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 22px;
+    left: 14px;
+    /* line-height: 212px; */
+  }
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}

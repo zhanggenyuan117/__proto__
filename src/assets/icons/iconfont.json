@@ -1,0 +1,93 @@
+{
+  "id": "2023879",
+  "name": "豫力汽配",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9335521",
+      "name": "任务",
+      "font_class": "renwu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "13376929",
+      "name": "任务",
+      "font_class": "renwu1",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "9622312",
+      "name": "工资 (1)",
+      "font_class": "gongzi",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "9732666",
+      "name": "产品",
+      "font_class": "banchengpin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6947763",
+      "name": "工单",
+      "font_class": "gongdan",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "3357482",
+      "name": "产品",
+      "font_class": "product",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1090282",
+      "name": "产品",
+      "font_class": "baohuo",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "6380567",
+      "name": "购物车",
+      "font_class": "buy-car",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "8570655",
+      "name": "系统管理",
+      "font_class": "xitongguanli",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "12756702",
+      "name": "眼睛 不可见-3",
+      "font_class": "yanjingbukejian-",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "4522682",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e73a",
+      "unicode_decimal": 59194
+    },
+    {
+      "icon_id": "9594603",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
